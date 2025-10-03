@@ -207,3 +207,8 @@ function openCheckout() {
   totalRounded = total.toFixed(2);
   checkoutTotal.textContent = `Total: $${totalRounded}`;
 }
+
+function clearAll () {
+cart = [];
+checkoutDiv.classList.remove("open");
+}

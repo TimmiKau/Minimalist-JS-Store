@@ -125,6 +125,10 @@ button:hover {
   background-color: red;
 }
 
+#close-checkout{
+  background-color: red;
+}
+
 #buy-button{
   padding: 10px 80px
 }
