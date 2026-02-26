@@ -1,28 +1,26 @@
 # Minimalist JS Store
 
-This project is a **minimalist online store** built with **JavaScript, HTML, and CSS**. It's designed to showcase dynamic product management, a shopping cart system, and a smooth user experience—all without relying on frameworks.  
+Minimalist JS Store is a framework-free frontend application demonstrating dynamic product rendering, client-side state management, and interactive UI behavior using vanilla JavaScript.
+
+The project focuses on building a structured shopping experience without relying on external libraries or frameworks.
+
+---
 
 ## Features
 
-- Display products dynamically from an array
-- Add products to a shopping cart
-- Remove items from the cart
-- View cart total with two decimal precision
-- Checkout modal displaying purchased items
-- Fully interactive UI using JavaScript
+- Dynamic product rendering from structured data
+- Client-side shopping cart logic
+- Add / remove items functionality
+- Real-time cart total calculation
+- Checkout modal displaying selected items
+- Interactive UI driven by JavaScript event handling
 
-## Why "Minimalist"?
+<img width="1524" height="799" alt="{16C007DE-B5E5-4D11-970E-AB2C84065643}" src="https://github.com/user-attachments/assets/4dfd85bd-441d-450c-ba40-44d866f5bd32" />
 
-The design is **clean and functional**, focusing on essential features without clutter. It’s not just simple—it demonstrates how vanilla JavaScript can create a modern, interactive store experience.
 
-## How to Use
+---
 
-1. Open Github page in your browser.
-2. Browse products and add them to the cart.
-3. Open and close the cart with the buttons.
-4. Checkout to see your order summary.
-
-## Technologies
+## Tech Stack
 
 - Vanilla JavaScript
 - HTML5
@@ -30,4 +28,26 @@ The design is **clean and functional**, focusing on essential features without c
 
 ---
 
-Feel free to explore the code and see how dynamic DOM manipulation powers a small but functional store.
+## Architecture Approach
+
+The application is built using:
+
+- Structured product data arrays
+- DOM manipulation through event listeners
+- Local state management for cart tracking
+- Functional separation between UI rendering and business logic
+
+The goal was to demonstrate how core JavaScript can power a complete interactive store experience without frameworks.
+
+---
+
+## Live Demo
+
+https://timmikau.github.io/Minimalist-JS-Store/
+
+---
+
+## How to Run Locally
+
+1. Clone the repository
+2. Open `index.html` in your browser
